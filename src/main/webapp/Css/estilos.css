@@ -1,0 +1,112 @@
+section{
+  padding-bottom: 2%;
+}
+html
+{
+    position: relative;
+    min-height: 100%;
+}
+  footer
+{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 85px;
+}
+
+/* Espacio entre el tope y el cuerpo */
+body{
+    padding-top: 50px;
+    margin: 0 0 65px;
+
+}
+
+.espacioEntreBoton{
+  margin-left: 2%;
+}
+/* Espaciado Utilizados en el login */
+.espaciado{
+    margin-top: 10px;
+}
+/* Div que contiene el formulario para el inicio de sesion */
+.centrarLogin{
+    margin-top: 3%;
+    text-align: center;
+
+}
+/* Modifica la imagen corporativa en el login */
+.imagen{
+    width: 16%;
+    height: 16%;
+}
+/*Modifica el Div que contiene la imagen corporativa*/
+.centrarDiv{
+    text-align: center;
+}
+/* Tamaño de la imagen del footer */
+.footerImagen{
+  width: auto;
+  height: 40px;
+}
+/* Centra el div que centra el texto */
+.centrar-texto{
+    text-align: center;
+}
+/* Ajusta el tamaño del logo a la barra de navegación */
+.logoBarraNav{
+    max-width: 35px;
+    margin-top: -10px;
+}
+.jumbotron{
+    background-color: white;
+}
+.imagenMenu{
+    width: 34%;
+    height: 34%;
+}
+
+/* Modifica el tamaño de los input de las secciones consultar */
+.tamañoConsultar{
+    display: inline;
+    width: 70%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.tamañoConsultar[disabled],
+.tamañoConsultar[readonly],
+fieldset[disabled] .tamañoConsultar {
+  background-color: #eee;
+  opacity: 1;
+}
+.tamañoConsultar:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.tamañoConsultar::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.tamañoConsultar:-ms-input-placeholder {
+  color: #999;
+}
+.tamañoConsultar::-webkit-input-placeholder {
+  color: #999;
+}
+.tamañoConsultar::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}

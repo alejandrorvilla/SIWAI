@@ -1,12 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>Controlador</servlet-name>
-        <servlet-class>co.com.norsoft.prueba.controlador.Controlador</servlet-class>
+        <servlet-name>ControladorCliente</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorCliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorProveedor</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorProveedor</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorEmpleado</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorEmpleado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorSucursal</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorSucursal</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorUbicacion</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorUbicacion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorArticulo</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorArticulo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorArticuloExtra</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorArticuloExtra</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorPedido</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorPedido</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorComparacion</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorComparacion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorTraslado</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorTraslado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorVenta</servlet-name>
+        <servlet-class>co.edu.ufps.siwai.controlador.ControladorVenta</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Controlador</servlet-name>
-        <url-pattern>/Controlador</url-pattern>
+        <servlet-name>ControladorCliente</servlet-name>
+        <url-pattern>/ControladorCliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorProveedor</servlet-name>
+        <url-pattern>/ControladorProveedor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorEmpleado</servlet-name>
+        <url-pattern>/ControladorEmpleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorSucursal</servlet-name>
+        <url-pattern>/ControladorSucursal</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorUbicacion</servlet-name>
+        <url-pattern>/ControladorUbicacion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorArticulo</servlet-name>
+        <url-pattern>/ControladorArticulo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorArticuloExtra</servlet-name>
+        <url-pattern>/ControladorArticuloExtra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorPedido</servlet-name>
+        <url-pattern>/ControladorPedido</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorComparacion</servlet-name>
+        <url-pattern>/ControladorComparacion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorTraslado</servlet-name>
+        <url-pattern>/ControladorTraslado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorVenta</servlet-name>
+        <url-pattern>/ControladorVenta</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
